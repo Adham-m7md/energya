@@ -10,10 +10,10 @@ import 'package:Energya/presentation/production/screen/production_grid_view_page
 import 'package:go_router/go_router.dart';
 import 'package:Energya/presentation/home/view/home_view.dart';
 
-import 'package:Energya/presentation/sign%20in/screen/sign_in.dart';
-import 'package:Energya/presentation/splash/screen/splash_view.dart';
+import 'package:Energya/presentation/sign%20in/sign_in.dart';
+import 'package:Energya/presentation/splash/splash_view.dart';
 
-import '../../presentation/register/screen/Sign_up-view.dart';
+import '../../presentation/register/Sign_up-view.dart';
 
 abstract class AppRouters {
   static String kSplashViewpage = '/';

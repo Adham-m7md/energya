@@ -17,10 +17,11 @@ class LogoBody extends StatelessWidget {
             color: kBlackColor,
             child: Container(
               decoration: BoxDecoration(
-                  border: Border.all(
-                      color: Colors.blueAccent.withOpacity(0.8), width: 3),
-                  shape: BoxShape.circle,
-                  color: kPrimaryColor.withOpacity(0.15)),
+                border: Border.all(
+                    color: Colors.blueAccent.withOpacity(0.8), width: 3),
+                shape: BoxShape.circle,
+                color: kPrimaryColor.withOpacity(0.15),
+              ),
             ),
           ),
           Positioned(

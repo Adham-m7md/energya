@@ -24,7 +24,11 @@ class SignUpView extends StatelessWidget {
                   SizedBox(
                     height: context.height * 0.03,
                   ),
-                  const LogoBody(),
+                  Image.asset(
+                    fit: BoxFit.fill,
+                    kLogo,
+                    scale: 4,
+                  ),
                   const Padding(
                     padding: EdgeInsets.only(left: 16, top: 24),
                     child: Row(
@@ -32,7 +36,7 @@ class SignUpView extends StatelessWidget {
                         Text(
                           "Sign Up",
                           style: TextStyle(
-                              fontSize: 34,
+                              fontSize: 30,
                               color: kPrimaryColor,
                               fontWeight: FontWeight.bold),
                         ),

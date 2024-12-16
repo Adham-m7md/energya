@@ -22,13 +22,13 @@ class TextFeild extends StatelessWidget {
         decoration: InputDecoration(
           prefixIcon: Icon(
             prefixIcon,
-            size: 26,
+            size: 22,
           ),
           suffixIcon: IconButton(
               onPressed: () {},
               icon: Icon(
                 suffixIcon,
-                size: 32,
+                size: 22,
               )),
           hintText: hintText,
           filled: true,

@@ -32,7 +32,7 @@ class _SplashViewBodyState extends State<SplashView> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Stack(
+            /*  Stack(
               children: [
                 Container(
                   height: context.height * 0.4,
@@ -57,13 +57,12 @@ class _SplashViewBodyState extends State<SplashView> {
                 )
               ],
             ),
-            SizedBox(
-              height: context.height * 0.03,
+            */
+            Image.asset(
+              fit: BoxFit.fill,
+              kLogo,
+              scale: 4,
             ),
-            const Text(
-              'Wellcome to energya',
-              style: TextStyle(fontSize: 24),
-            )
           ],
         ),
       ),

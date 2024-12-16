@@ -6,6 +6,7 @@ import 'package:Energya/core/widgets/custom_navigation_button.dart';
 import 'package:Energya/core/widgets/logo_body.dart';
 import 'package:Energya/presentation/home/widgets/text_feilds.dart';
 import 'package:flutter/material.dart';
+
 class SignInView extends StatelessWidget {
   const SignInView({super.key});
 
@@ -17,20 +18,26 @@ class SignInView extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: ListView(
             children: [
-              const Column(
+              Column(
                 children: [
                   Padding(
-                    padding: EdgeInsets.only(top: 80),
-                    child: LogoBody()
+                    padding: const EdgeInsets.only(top: 80),
+                    child: Center(
+                      child: Image.asset(
+                        fit: BoxFit.fill,
+                        kLogo,
+                        scale: 4,
+                      ),
+                    ),
                   ),
-                  Padding(
+                  const Padding(
                     padding: EdgeInsets.only(left: 16, top: 48),
                     child: Row(
                       children: [
                         Text(
                           "Sign In",
                           style: TextStyle(
-                              fontSize: 34,
+                              fontSize: 30,
                               color: kPrimaryColor,
                               fontWeight: FontWeight.bold),
                         ),

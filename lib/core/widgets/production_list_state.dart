@@ -31,6 +31,21 @@ class ProductionListState {
         productionName: 'follow up',
         onTapAction: () => context.NavigatePushTo(AppRouters.kFollowUpPage),
       ),
+      ProductionItem(
+        imageAsset: 'images/painting.png',
+        productionName: 'paining',
+        // onTapAction: () => context.NavigatePushTo(AppRouters.kFollowUpPage),
+      ),
+      ProductionItem(
+        imageAsset: 'images/dispatch.png',
+        productionName: 'dispatch',
+        // onTapAction: () => context.NavigatePushTo(AppRouters.kFollowUpPage),
+      ),
+      ProductionItem(
+        imageAsset: 'images/galv.png',
+        productionName: 'galvanization',
+        // onTapAction: () => context.NavigatePushTo(AppRouters.kFollowUpPage),
+      ),
     ];
   }
 }
